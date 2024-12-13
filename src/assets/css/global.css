@@ -1,5 +1,189 @@
+/* 전역 스타일 정의 */
+
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/pretendard/variable.css");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&family=Cinzel:wght@400&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+a {
+  color: inherit;
+  visibility: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+.flex {
+  display: flex;
+}
+
+ul {
+  padding: 0px;
+}
+
+/* Body */
+.body1 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+}
+.body1-long {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 1rem; /* 16px */
+  line-height: 1.75rem; /* 28px */
+}
+.body2 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+}
+.body2-long {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.5rem; /* 24px */
+}
+.caption {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 0.75rem; /* 12px */
+  line-height: 1.125rem; /* 18px */
+}
+
+/* Title */
+.h1 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 3.75rem; /* 60px */
+  line-height: 6rem; /* 96px */
+}
+.h2 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 2.25rem; /* 36px */
+  line-height: 2.875rem; /* 46px */
+}
+.h3 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 1.75rem; /* 28px */
+  line-height: 2.375rem; /* 38px */
+}
+.h4 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 1.5rem; /* 24px */
+  line-height: 2.125rem; /* 34px */
+}
+.h5 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+}
+.h6 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.625rem; /* 26px */
+}
+
+/* SemiBold Title */
+.sbt1 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 600; /* SemiBold */
+  font-size: 3.75rem; /* 60px */
+  line-height: 6rem; /* 96px */
+}
+.sbt2 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 600; /* SemiBold */
+  font-size: 3rem; /* 48px */
+  line-height: 4.375rem; /* 70px */
+}
+.sbt3 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 600; /* SemiBold */
+  font-size: 2.5rem; /* 40px */
+  line-height: 3.25rem; /* 52px */
+}
+.sbt4 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 600; /* SemiBold */
+  font-size: 2.25rem; /* 36px */
+  line-height: 2.875rem; /* 46px */
+}
+.sbt5 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 600; /* SemiBold */
+  font-size: 1.75rem; /* 28px*/
+  line-height: 2.375rem; /* 38px */
+}
+.sbt6 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 600; /* SemiBold */
+  font-size: 1.5rem; /* 24px */
+  line-height: 2.125rem; /* 34px */
+}
+.sbt7 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 600; /* SemiBold */
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+}
+.subhead1 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 600; /* SemiBold */
+  font-size: 1rem; /* 16px */
+  line-height: 1.375rem; /* 22px */
+}
+.subhead2 {
+  font-family: "Pretendard", sans-serif;
+  font-weight: 600; /* SemiBold */
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+}
+
+/* GNB */
+.logo {
+  font-family: "Cinzel", serif;
+  font-weight: 400; /* Regular */
+  font-size: 1.375rem; /* 22px */
+  line-height: 2rem; /* 32px */
+}
+.menu {
+  font-family: "Playfair Display", serif;
+  font-weight: 400; /* Regular */
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+}
+
+/* Main */
+.main-title {
+  font-family: "Cinzel", serif;
+  font-weight: 400; /* Regular */
+  font-size: 4rem; /* 64px */
+  line-height: 6.375rem; /* 102px */
 }
