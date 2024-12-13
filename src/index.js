@@ -1,6 +1,7 @@
 import React from "react";
 import "./assets/css/index.css";
 // index.css에 포함된 모든 스타일을 적용
+import "./assets/css/tStyle.scss";
 
 import ReactDOM from "react-dom/client";
 // ReactDOM(React를 웹 페이지에 렌더링하는데 필요한거) 불러옴
