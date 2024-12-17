@@ -3,7 +3,7 @@ import React from "react";
 function ProjectDDIJPage(props) {
   return (
     <div>
-      <h1 className="text-white">댕댕</h1>
+      <h1 className="text-white">project ddij</h1>
     </div>
   );
 }
