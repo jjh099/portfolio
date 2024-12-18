@@ -3,7 +3,7 @@ import React from "react";
 function ProjectPFPage(props) {
   return (
     <div>
-      <h1 className="text-white">project pdf</h1>
+      <h1 className="text-cwhite">project pdf</h1>
     </div>
   );
 }
